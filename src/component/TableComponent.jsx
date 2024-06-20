@@ -84,7 +84,7 @@ function TableComponent({ initialData }) {
                 <Button
                     style={{ backgroundColor: 'blue', color: 'white' }}
                     onClick={() =>
-                      handleOpen(item.employee.pub_id, item.employee.first_name)
+                      handleOpen(item.pub_id, item.employee.first_name)
                     }
                   >
                     Edit
